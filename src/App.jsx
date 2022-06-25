@@ -10,8 +10,7 @@ import Timer from "./Component/Timer/Timer";
 import Credit from "./Component/Credit/Credit";
 
 let stream = randomeStreamGenerator();
-console.log(stream);
-localStorage.highScore = 0;
+// console.log(stream);
 
 const App = () => {
   const inputRef = useRef(null);
